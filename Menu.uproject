@@ -1,16 +1,27 @@
 {
-	"FileVersion": 3,
-	"EngineAssociation": "4.27",
-	"Category": "",
-	"Description": "",
-	"Modules": [
-		{
-			"Name": "Menu",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"AIModule"
-			]
-		}
-	]
+  "FileVersion": 3,
+  "EngineAssociation": "4.27",
+  "Category": "",
+  "Description": "",
+  "Modules": [
+    {
+      "Name": "Menu",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "AdditionalDependencies": [
+        "Engine"
+      ]
+    },
+    {
+      "Name": "WebBrowserWidget",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "WebBrowserWidget",
+      "Enabled": true
+    }
+  ]
 }

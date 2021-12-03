@@ -1,14 +1,15 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Fill out your copyright notice in the Description page of Project Settings.
 
 using UnrealBuildTool;
 using System.Collections.Generic;
 
 public class MenuEditorTarget : TargetRules
 {
-	public MenuEditorTarget( TargetInfo Target) : base(Target)
+	public MenuEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
+
 		ExtraModuleNames.AddRange( new string[] { "Menu" } );
 	}
 }

@@ -3,14 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "BehaviorTree/BTFunctionLibrary.h"
-#include "MyBTFunctionLibrary.generated.h"
+#include "Engine/GameInstance.h"
+#include "MyGameInstance.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class MENU_API UMyBTFunctionLibrary : public UBTFunctionLibrary
+class MENU_API UMyGameInstance : public UGameInstance
 {
 	GENERATED_BODY()
 	

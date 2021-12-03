@@ -1,0 +1,1 @@
+https://serenitytest.auth.eu-central-1.amazoncognito.com/login?client_id=muiqo53d2nep81atuue0q95pq&response_type=code&scope=aws.cognito.signin.user.admin+email+openid+phone+profile+serenity.gamelift.api/access&redirect_uri=https://mg4wnek9t1.execute-api.eu-central-1.amazonaws.com/test/getsigninresult
