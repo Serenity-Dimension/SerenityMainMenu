@@ -60,7 +60,7 @@ public:
 		void SetCognitoTokens(FString NewAccessToken, FString NewIdToken, FString NewRefreshToken);
 		
 	UPROPERTY()
-		FString Nickname;
+		FString Nickname = "Guest";
 	UPROPERTY()
 		FString Email;
 		
